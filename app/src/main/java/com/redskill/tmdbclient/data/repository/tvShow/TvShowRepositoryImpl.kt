@@ -1,13 +1,11 @@
 package com.redskill.tmdbclient.data.repository.tvShow
 
 import android.util.Log
-import com.redskill.tmdbclient.data.model.Movie
 import com.redskill.tmdbclient.data.model.TvShow
 import com.redskill.tmdbclient.data.repository.tvShow.datasource.TvShowCacheDataSource
 import com.redskill.tmdbclient.data.repository.tvShow.datasource.TvShowLocalDataSource
 import com.redskill.tmdbclient.data.repository.tvShow.datasource.TvShowRemoteDataSource
 import com.redskill.tmdbclient.domain.repository.TvShowRepository
-import java.lang.Exception
 
 class TvShowRepositoryImpl(
     private val tvShowCacheDataSource: TvShowCacheDataSource,
